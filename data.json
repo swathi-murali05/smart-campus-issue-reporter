@@ -1,0 +1,10 @@
+{
+  "title": "Water leakage",
+  "description": "Water leaking near lab",
+  "imageUrl": "https://...",
+  "category": "Water",
+  "status": "Pending",
+  "reportedBy": "student_uid",
+  "assignedTo": "staff_uid",
+  "timestamp": "2026-01-01"
+}
