@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Campus Issue Reporter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #1976d2;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            width: 400px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea, select, button {
+            width: 100%;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            padding: 8px;
+        }
+        button {
+            background: #1976d2;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #125ca1;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Smart Campus Issue Reporter</h2>
+</header>
+
+<div class="container">
+    <form>
+        <label>Issue Title</label>
+        <input type="text" placeholder="Enter issue title" required>
+
+        <label>Issue Category</label>
+        <select>
+            <option>Electricity</option>
+            <option>Water</option>
+            <option>Wi-Fi</option>
+            <option>Classroom</option>
+            <option>Other</option>
+        </select>
+
+        <label>Description</label>
+        <textarea rows="4" placeholder="Describe the issue"></textarea>
+
+        <label>Upload Photo</label>
+        <input type="file">
+
+        <button type="submit">Submit Issue</button>
+    </form>
+</div>
+
+<footer>
+    © 2026 Smart Campus Reporter
+</footer>
+
+</body>
+</html>
